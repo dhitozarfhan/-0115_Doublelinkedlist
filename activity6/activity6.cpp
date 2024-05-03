@@ -34,6 +34,7 @@ void addNode()
 
 		}
 		newNode->prev = NULL; // step 5: make the new node point to NULL
+		START = newNode;      // step 6: make the new node the first node
 	}
 		
 
